@@ -74,6 +74,8 @@ const st_prtcmd_matriz_prop tab_matrizes[] = {
   }
 };
 
+
+//mais testes de merge de branch/trunk
 const st_prtcmd_fontAlt tab_fontes[] = {
   {                     // PRTCMD_FONTE_9x12
     NULL,               // st_prtcmd_matriz_prop *matriz_ref;
