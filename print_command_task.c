@@ -74,15 +74,17 @@ const st_prtcmd_matriz_prop tab_matrizes[] = {
   }
 };
 
-const st_prtcmd_fontAlt _fontes[] = {
+const st_prtcmd_fontAlt tab_fontes[] = {
   {                     // PRTCMD_FONTE_9x12
     NULL,               // st_prtcmd_matriz_prop *matriz_ref;
     mtx_Get9x12,        // plibv_func_get_mtx_t func_mtx;
     9,                  // uint8_t larg_char;
     12,                 // uint8_t alt_char;
+    1,                  // uint8_t gap_linhas;
     1,                  // uint8_t tam_char;
     13,                 // uint8_t alt_mont;
     9,                  // uint8_t larg_mont;
+    0,                  // uint8_t col_ref;
     0,                  // uint8_t linha_ref;
   },
   {                     // PRTCMD_FONTE_9x24
