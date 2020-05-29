@@ -73,6 +73,7 @@ const st_prtcmd_matriz_prop tab_matrizes[] = {
     30
   }
 };
+//aparentemente a coisa é mais complicada do que imagino
 
 const st_prtcmd_fontAlt _fontes[] = {
   {                     // PRTCMD_FONTE_9x12
